@@ -1,5 +1,5 @@
 import dbConnect from "@/lib/dbConnect";
-import Proflie from "@/models/Proflie";
+import Proflie from "@/models/Profile";
 
 export default async function handler(req, res) {
   await dbConnect();

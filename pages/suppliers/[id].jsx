@@ -20,8 +20,9 @@ export default function Supplier({ supplier }) {
     
       <form>
         <h1>{supplier.supplier_name}</h1>
-        <p>Address: {supplier.address}</p>
         <p>Phone Number: {supplier.phone_number}</p>
+        <p>Email: {supplier.email}</p>
+        <p>Address: {supplier.address}</p>
       </form>
 
       <Link href="/suppliers">
